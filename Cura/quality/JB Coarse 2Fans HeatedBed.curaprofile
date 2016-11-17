@@ -1,0 +1,8 @@
+[general]
+version = 2
+name = JB Coarse 2Fans HeatedBed
+definition = fdmprinter
+
+[metadata]
+quality_type = Low
+type = quality_changes
