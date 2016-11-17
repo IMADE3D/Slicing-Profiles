@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='US-ASCII'?>
+<fdmmaterial xmlns="http://www.ultimaker.com/material">
+    <metadata>
+        <name>
+            <brand>Generic</brand>
+            <material>PLA</material>
+            <color>Green</color>
+            <label>PLA JB Green</label>
+        </name>
+        <GUID>773dc6c6-12fc-4982-acaf-9a7fdf5db588</GUID>
+        <version>0</version>
+        <color_code>#55ff1d</color_code>
+        <adhesion_info />
+        <description />
+    </metadata>
+    <properties>
+        <density>1.24</density>
+        <diameter>1.75</diameter>
+    </properties>
+    <settings>
+        <!--  <setting key="hardware compatible">no</setting> A way of preventing JellyBOX profile from showing on all printers by default. -->
+        <setting key="print temperature">210</setting>
+        <setting key="heated bed temperature">60</setting>
+        <setting key="standby temperature">175</setting>
+        <machine>
+            <machine_identifier manufacturer="IMADE3D" product="JellyBOX"/>
+            <setting key="hardware compatible">yes</setting>
+        </machine>
+    </settings>
+</fdmmaterial>
