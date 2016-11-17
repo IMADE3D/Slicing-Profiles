@@ -4,12 +4,12 @@
         <name>
             <brand>Generic</brand>
             <material>PLA</material>
-            <color>Generic</color>
-            <label>PLA JB Generic</label>
+            <color>Green</color>
+            <label>PLA JB Green</label>
         </name>
-        <GUID>55f976ff-b17a-4df1-a8d2-7e17323f79a2</GUID>
+        <GUID>773dc6c6-12fc-4982-acaf-9a7fdf5db588</GUID>
         <version>0</version>
-        <color_code>#f0eae8</color_code>
+        <color_code>#55ff1d</color_code>
         <adhesion_info />
         <description />
     </metadata>
@@ -20,7 +20,7 @@
     <settings>
         <!--  <setting key="hardware compatible">no</setting> A way of preventing JellyBOX profile from showing on all printers by default. -->
         <setting key="print temperature">210</setting>
-        <setting key="heated bed temperature">60</setting>
+        <setting key="heated bed temperature">0</setting>
         <setting key="standby temperature">175</setting>
         <machine>
             <machine_identifier manufacturer="IMADE3D" product="JellyBOX"/>

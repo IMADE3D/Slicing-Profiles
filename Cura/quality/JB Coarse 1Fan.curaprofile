@@ -1,13 +1,9 @@
 [general]
-version = 2
-name = JB Coarse 2Fans HeatedBed
-definition = fdmprinter
+version = 1
+name = JB Coarse 1Fans
+weight = 0
 
-[metadata]
-quality_type = Low
-type = quality_changes
-
-[values]
+[settings]
 adhesion_type = skirt
 bottom_thickness = 0.6
 coasting_enable = True
@@ -15,8 +11,8 @@ coasting_speed = 95
 cool_fan_full_at_height = 0.4
 cool_fan_speed_max = 100
 cool_fan_speed_min = 50
-cool_min_layer_time = 4
-cool_min_layer_time_fan_speed_max = 5
+cool_min_layer_time = 5
+cool_min_layer_time_fan_speed_max = 10
 cool_min_speed = 10
 infill_before_walls = False
 infill_line_width = 0.6
