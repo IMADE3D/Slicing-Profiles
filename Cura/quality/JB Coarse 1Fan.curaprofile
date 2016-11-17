@@ -4,8 +4,6 @@ name = JB Coarse 1Fans
 weight = 0
 
 [settings]
-
-[values]
 adhesion_type = skirt
 bottom_thickness = 0.6
 coasting_enable = True
