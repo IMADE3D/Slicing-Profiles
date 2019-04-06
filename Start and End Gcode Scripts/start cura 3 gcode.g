@@ -42,8 +42,8 @@ M190 S45          ;wait for the bed to reach 45C
 M109 S180         ;wait for the extruder to reach 180C
 G28               ;home all axes
 M203 Z4           ;slow Z speed down for greater accuracy when probing
-G29               ;auto bed leveling procedure
-;M500              ;optionally save the mesh
+G29 O             ;run auto bed leveling procedure IF leveling not active already
+; M500            ;optionally save the mesh
 M203 Z7           ;pick up z speed again for printing
 G28 X             ;home x to get as far from the plate as possible
 M420 S1           ;(re) enable bed leveling turned off by the G28
@@ -52,7 +52,7 @@ G0 Z15 F3000      ;position Z
 M190 S{material_bed_temperature_layer_0}              ;wait for the bed to reach desired temperature
 M109 S{material_print_temperature_layer_0}             ;wait for the extruder to reach desired temperature
 M300 S440 P300    ;play a tone
-// M0 Ready! Click to start ; optionally, stop and wait for user to continue
+; M0 Ready! Click to start ; optionally, stop and wait for user to continue
 M420 S1           ;(re) enable bed leveling to make iron-sure
 M117 Print starting   ;write Print starting
 ;================ ;PRINT:LINE start
