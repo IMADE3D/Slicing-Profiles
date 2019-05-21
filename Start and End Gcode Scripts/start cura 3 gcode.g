@@ -46,7 +46,7 @@ G29 O             ;run auto bed leveling procedure IF leveling not active alread
 ; M500            ;optionally save the mesh
 M203 Z7           ;pick up z speed again for printing
 G28 X             ;home x to get as far from the plate as possible
-M420 S1           ;(re) enable bed leveling turned off by the G28
+M420 S1           ;(re) enable bed leveling if turned off by the G28
 G0 Y0 F5000       ;position Y in front
 G0 Z15 F3000      ;position Z
 M190 S{material_bed_temperature_layer_0}              ;wait for the bed to reach desired temperature
