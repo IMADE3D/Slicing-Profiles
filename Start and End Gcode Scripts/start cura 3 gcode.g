@@ -8,6 +8,9 @@
 ; (leave these alone: this is only a list of the slicing settings)
 ; (overwriting these values will NOT change your printer's behavior)
 ;             sliced for :  {machine_name}
+;                jobname :  {jobname}
+;        gcode generated :  {day}, {date}, {time}
+;        est. print time :  {print_time}
 ;        nozzle diameter :  {machine_nozzle_size}
 ;      filament diameter :  {material_diameter}
 ;           layer height :  {layer_height}
